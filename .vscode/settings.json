@@ -1,0 +1,5 @@
+{
+  "files.eol": "\n", // ou "\r\n" para Windows
+  "editor.tabSize": 2, // Número de espaços para a indentação
+  "editor.insertSpaces": true // Usar espaços em vez de tabulação
+}

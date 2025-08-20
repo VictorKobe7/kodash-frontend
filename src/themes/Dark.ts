@@ -1,0 +1,46 @@
+import { createTheme } from "@mui/material";
+import { Typography } from "./Typography";
+import { Breakpoints } from "./Breakpoints";
+import { Components } from "./Components";
+
+export const DarkTheme = createTheme({
+  palette: {
+    mode: "dark",
+    background: {
+      default: "#202124",
+      paper: "#303134"
+    },
+    primary: {
+      main: "#3B82F6",
+      light: "#60A5FA",
+      dark: "#2563EB",
+      contrastText: "#FFFFFF"
+    },
+    success: {
+      main: "#10B981",
+      light: "#34D399",
+      dark: "#059669",
+      contrastText: "#FFFFFF"
+    },
+    warning: {
+      main: "#F59E0B",
+      light: "#FBBF24",
+      dark: "#B45309",
+      contrastText: "#000000"
+    },
+    error: {
+      main: "#EF4444",
+      light: "#F87171",
+      dark: "#B91C1C",
+      contrastText: "#FFFFFF"
+    }
+  },
+  typography: {
+    ...Typography(),
+    allVariants: {
+      color: "white"
+    }
+  },
+  breakpoints: Breakpoints(),
+  components: Components()
+})
