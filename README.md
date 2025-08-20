@@ -46,7 +46,7 @@ npm install
 npm run dev
 ```
 
-⚠️ Certifique-se de que o [backend]() esteja em execução.
+⚠️ Certifique-se de que o [backend](https://github.com/VictorKobe7/kodash-backend) esteja em execução.
 
 ## 🔐 Usuários de Teste
 
